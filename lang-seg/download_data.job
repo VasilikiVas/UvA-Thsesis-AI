@@ -1,0 +1,30 @@
+#!/bin/bash
+
+#SBATCH --partition=normal
+#SBATCH --gres=gpu:0
+#SBATCH --job-name=DownloadData
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=06:00:00
+#SBATCH --mem=64000M
+#SBATCH --output=slurm_output_%A.out
+
+cd $HOME/lang-seg/
+conda activate py27
+python reader.py --export_color_images --filename ./scans/scene0000_00/scene0000_00.sens --output_path ./scans/scene0000_00
+python reader.py --export_color_images --filename ./scans/scene0000_01/scene0000_01.sens --output_path ./scans/scene0000_01
+python reader.py --export_color_images --filename ./scans/scene0000_02/scene0000_02.sens --output_path ./scans/scene0000_02
+python reader.py --export_color_images --filename ./scans/scene0001_00/scene0001_00.sens --output_path ./scans/scene0001_00
+python reader.py --export_color_images --filename ./scans/scene0001_01/scene0001_01.sens --output_path ./scans/scene0001_01
+python reader.py --export_color_images --filename ./scans/scene0002_00/scene0002_00.sens --output_path ./scans/scene0002_00
+python reader.py --export_color_images --filename ./scans/scene0002_01/scene0002_01.sens --output_path ./scans/scene0002_01
+python reader.py --export_color_images --filename ./scans/scene0003_00/scene0003_00.sens --output_path ./scans/scene0003_00
+python reader.py --export_color_images --filename ./scans/scene0003_01/scene0003_01.sens --output_path ./scans/scene0003_01
+python reader.py --export_color_images --filename ./scans/scene0003_02/scene0003_02.sens --output_path ./scans/scene0003_02
+python reader.py --export_color_images --filename ./scans/scene0004_00/scene0004_00.sens --output_path ./scans/scene0004_00
+python reader.py --export_color_images --filename ./scans/scene0005_00/scene0005_00.sens --output_path ./scans/scene0005_00
+python reader.py --export_color_images --filename ./scans/scene0005_01/scene0005_01.sens --output_path ./scans/scene0005_01
+python reader.py --export_color_images --filename ./scans/scene0006_00/scene0006_00.sens --output_path ./scans/scene0006_00
+python reader.py --export_color_images --filename ./scans/scene0006_01/scene0006_01.sens --output_path ./scans/scene0006_01
+python reader.py --export_color_images --filename ./scans/scene0006_02/scene0006_02.sens --output_path ./scans/scene0006_02
+python reader.py --export_color_images --filename ./scans/scene0007_00/scene0007_00.sens --output_path ./scans/scene0007_00

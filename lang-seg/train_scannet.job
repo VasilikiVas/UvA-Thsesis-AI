@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:4
+#SBATCH --job-name=scannet_vvas
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=8
+#SBATCH --time=12:00:00
+#SBATCH --mem=180000M
+#SBATCH --output=slurm_output_%A.out
+
+cd $HOME/lang-seg/
+source activate svas
+
+python -u train_lseg.py --dataset scannet25k  --data_path ../datasets --batch_size 4 --exp_name first_scannet --base_lr 0.004 --weight_decay 1e-4 --no-scaleinv --max_epochs 240 --widehead --accumulate_grad_batches 2 --backbone clip_vitl16_384
