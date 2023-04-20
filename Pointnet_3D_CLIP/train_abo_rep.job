@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:1
+#SBATCH --job-name=ep400_bs124_data962_toptxt
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:30:00
+#SBATCH --mem=6000M
+#SBATCH --output=ep400_bs124_data962_toptxt.out
+
+cd $HOME/Pointnet_Pointnet2_pytorch/
+
+python -u train_representation.py --model pointnet_features --log_dir pointnet_feat
