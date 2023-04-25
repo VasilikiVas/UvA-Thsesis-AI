@@ -1,0 +1,506 @@
+2023-04-25 12:17:51,927 - Model - INFO - PARAMETER ...
+2023-04-25 12:17:51,927 - Model - INFO - Namespace(batch_size=124, decay_rate=0.0001, epoch=400, gpu='0', learning_rate=0.0001, log_dir='pointnet_feat', model='pointnet_features', num_category=40, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2023-04-25 12:17:51,927 - Model - INFO - Load dataset ...
+2023-04-25 12:17:53,807 - Model - INFO - No existing model, starting training from scratch...
+2023-04-25 12:18:00,159 - Model - INFO - Start training...
+2023-04-25 12:18:00,159 - Model - INFO - Epoch 1/400:
+2023-04-25 12:18:12,965 - Model - INFO - Train Instance Loss: 0.284335
+2023-04-25 12:18:12,988 - Model - INFO - Save model...
+2023-04-25 12:18:12,988 - Model - INFO - Epoch 2/400:
+2023-04-25 12:18:21,347 - Model - INFO - Train Instance Loss: 0.285870
+2023-04-25 12:18:21,348 - Model - INFO - Epoch 3/400:
+2023-04-25 12:18:29,578 - Model - INFO - Train Instance Loss: 0.283362
+2023-04-25 12:18:29,601 - Model - INFO - Save model...
+2023-04-25 12:18:29,601 - Model - INFO - Epoch 4/400:
+2023-04-25 12:18:37,981 - Model - INFO - Train Instance Loss: 0.168341
+2023-04-25 12:18:38,030 - Model - INFO - Save model...
+2023-04-25 12:18:38,030 - Model - INFO - Epoch 5/400:
+2023-04-25 12:18:46,316 - Model - INFO - Train Instance Loss: 0.161113
+2023-04-25 12:18:46,365 - Model - INFO - Save model...
+2023-04-25 12:18:46,365 - Model - INFO - Epoch 6/400:
+2023-04-25 12:18:54,762 - Model - INFO - Train Instance Loss: 0.162905
+2023-04-25 12:18:54,763 - Model - INFO - Epoch 7/400:
+2023-04-25 12:19:03,221 - Model - INFO - Train Instance Loss: 0.162922
+2023-04-25 12:19:03,222 - Model - INFO - Epoch 8/400:
+2023-04-25 12:19:11,525 - Model - INFO - Train Instance Loss: 0.124901
+2023-04-25 12:19:11,574 - Model - INFO - Save model...
+2023-04-25 12:19:11,575 - Model - INFO - Epoch 9/400:
+2023-04-25 12:19:19,871 - Model - INFO - Train Instance Loss: 0.122358
+2023-04-25 12:19:19,921 - Model - INFO - Save model...
+2023-04-25 12:19:19,921 - Model - INFO - Epoch 10/400:
+2023-04-25 12:19:28,216 - Model - INFO - Train Instance Loss: 0.120120
+2023-04-25 12:19:28,265 - Model - INFO - Save model...
+2023-04-25 12:19:28,266 - Model - INFO - Epoch 11/400:
+2023-04-25 12:19:36,518 - Model - INFO - Train Instance Loss: 0.121717
+2023-04-25 12:19:36,519 - Model - INFO - Epoch 12/400:
+2023-04-25 12:19:44,815 - Model - INFO - Train Instance Loss: 0.108730
+2023-04-25 12:19:44,865 - Model - INFO - Save model...
+2023-04-25 12:19:44,866 - Model - INFO - Epoch 13/400:
+2023-04-25 12:19:53,204 - Model - INFO - Train Instance Loss: 0.104762
+2023-04-25 12:19:53,253 - Model - INFO - Save model...
+2023-04-25 12:19:53,254 - Model - INFO - Epoch 14/400:
+2023-04-25 12:20:01,603 - Model - INFO - Train Instance Loss: 0.106358
+2023-04-25 12:20:01,604 - Model - INFO - Epoch 15/400:
+2023-04-25 12:20:09,919 - Model - INFO - Train Instance Loss: 0.101308
+2023-04-25 12:20:09,969 - Model - INFO - Save model...
+2023-04-25 12:20:09,969 - Model - INFO - Epoch 16/400:
+2023-04-25 12:20:18,344 - Model - INFO - Train Instance Loss: 0.093213
+2023-04-25 12:20:18,392 - Model - INFO - Save model...
+2023-04-25 12:20:18,392 - Model - INFO - Epoch 17/400:
+2023-04-25 12:20:27,186 - Model - INFO - Train Instance Loss: 0.091280
+2023-04-25 12:20:27,234 - Model - INFO - Save model...
+2023-04-25 12:20:27,235 - Model - INFO - Epoch 18/400:
+2023-04-25 12:20:35,653 - Model - INFO - Train Instance Loss: 0.091320
+2023-04-25 12:20:35,654 - Model - INFO - Epoch 19/400:
+2023-04-25 12:20:43,953 - Model - INFO - Train Instance Loss: 0.091580
+2023-04-25 12:20:43,954 - Model - INFO - Epoch 20/400:
+2023-04-25 12:20:52,287 - Model - INFO - Train Instance Loss: 0.088963
+2023-04-25 12:20:52,337 - Model - INFO - Save model...
+2023-04-25 12:20:52,337 - Model - INFO - Epoch 21/400:
+2023-04-25 12:21:00,629 - Model - INFO - Train Instance Loss: 0.084556
+2023-04-25 12:21:00,679 - Model - INFO - Save model...
+2023-04-25 12:21:00,680 - Model - INFO - Epoch 22/400:
+2023-04-25 12:21:08,965 - Model - INFO - Train Instance Loss: 0.084909
+2023-04-25 12:21:08,965 - Model - INFO - Epoch 23/400:
+2023-04-25 12:21:17,238 - Model - INFO - Train Instance Loss: 0.087602
+2023-04-25 12:21:17,239 - Model - INFO - Epoch 24/400:
+2023-04-25 12:21:25,577 - Model - INFO - Train Instance Loss: 0.081956
+2023-04-25 12:21:25,626 - Model - INFO - Save model...
+2023-04-25 12:21:25,627 - Model - INFO - Epoch 25/400:
+2023-04-25 12:21:34,021 - Model - INFO - Train Instance Loss: 0.078209
+2023-04-25 12:21:34,071 - Model - INFO - Save model...
+2023-04-25 12:21:34,071 - Model - INFO - Epoch 26/400:
+2023-04-25 12:21:42,637 - Model - INFO - Train Instance Loss: 0.080126
+2023-04-25 12:21:42,638 - Model - INFO - Epoch 27/400:
+2023-04-25 12:21:51,041 - Model - INFO - Train Instance Loss: 0.080065
+2023-04-25 12:21:51,042 - Model - INFO - Epoch 28/400:
+2023-04-25 12:21:59,366 - Model - INFO - Train Instance Loss: 0.073579
+2023-04-25 12:21:59,415 - Model - INFO - Save model...
+2023-04-25 12:21:59,415 - Model - INFO - Epoch 29/400:
+2023-04-25 12:22:07,735 - Model - INFO - Train Instance Loss: 0.073875
+2023-04-25 12:22:07,736 - Model - INFO - Epoch 30/400:
+2023-04-25 12:22:16,035 - Model - INFO - Train Instance Loss: 0.072546
+2023-04-25 12:22:16,084 - Model - INFO - Save model...
+2023-04-25 12:22:16,084 - Model - INFO - Epoch 31/400:
+2023-04-25 12:22:24,395 - Model - INFO - Train Instance Loss: 0.073966
+2023-04-25 12:22:24,396 - Model - INFO - Epoch 32/400:
+2023-04-25 12:22:32,738 - Model - INFO - Train Instance Loss: 0.069085
+2023-04-25 12:22:32,787 - Model - INFO - Save model...
+2023-04-25 12:22:32,787 - Model - INFO - Epoch 33/400:
+2023-04-25 12:22:41,101 - Model - INFO - Train Instance Loss: 0.068275
+2023-04-25 12:22:41,151 - Model - INFO - Save model...
+2023-04-25 12:22:41,151 - Model - INFO - Epoch 34/400:
+2023-04-25 12:22:49,482 - Model - INFO - Train Instance Loss: 0.068170
+2023-04-25 12:22:49,531 - Model - INFO - Save model...
+2023-04-25 12:22:49,531 - Model - INFO - Epoch 35/400:
+2023-04-25 12:22:57,824 - Model - INFO - Train Instance Loss: 0.068913
+2023-04-25 12:22:57,825 - Model - INFO - Epoch 36/400:
+2023-04-25 12:23:06,265 - Model - INFO - Train Instance Loss: 0.068517
+2023-04-25 12:23:06,265 - Model - INFO - Epoch 37/400:
+2023-04-25 12:23:14,591 - Model - INFO - Train Instance Loss: 0.064263
+2023-04-25 12:23:14,641 - Model - INFO - Save model...
+2023-04-25 12:23:14,641 - Model - INFO - Epoch 38/400:
+2023-04-25 12:23:22,906 - Model - INFO - Train Instance Loss: 0.066628
+2023-04-25 12:23:22,906 - Model - INFO - Epoch 39/400:
+2023-04-25 12:23:31,140 - Model - INFO - Train Instance Loss: 0.067218
+2023-04-25 12:23:31,141 - Model - INFO - Epoch 40/400:
+2023-04-25 12:23:39,405 - Model - INFO - Train Instance Loss: 0.063343
+2023-04-25 12:23:39,455 - Model - INFO - Save model...
+2023-04-25 12:23:39,455 - Model - INFO - Epoch 41/400:
+2023-04-25 12:23:47,772 - Model - INFO - Train Instance Loss: 0.062881
+2023-04-25 12:23:47,822 - Model - INFO - Save model...
+2023-04-25 12:23:47,822 - Model - INFO - Epoch 42/400:
+2023-04-25 12:23:56,090 - Model - INFO - Train Instance Loss: 0.063697
+2023-04-25 12:23:56,091 - Model - INFO - Epoch 43/400:
+2023-04-25 12:24:04,367 - Model - INFO - Train Instance Loss: 0.062080
+2023-04-25 12:24:04,418 - Model - INFO - Save model...
+2023-04-25 12:24:04,418 - Model - INFO - Epoch 44/400:
+2023-04-25 12:24:12,716 - Model - INFO - Train Instance Loss: 0.060289
+2023-04-25 12:24:12,766 - Model - INFO - Save model...
+2023-04-25 12:24:12,766 - Model - INFO - Epoch 45/400:
+2023-04-25 12:24:20,999 - Model - INFO - Train Instance Loss: 0.060520
+2023-04-25 12:24:21,000 - Model - INFO - Epoch 46/400:
+2023-04-25 12:24:29,321 - Model - INFO - Train Instance Loss: 0.058824
+2023-04-25 12:24:29,370 - Model - INFO - Save model...
+2023-04-25 12:24:29,371 - Model - INFO - Epoch 47/400:
+2023-04-25 12:24:37,611 - Model - INFO - Train Instance Loss: 0.057367
+2023-04-25 12:24:37,659 - Model - INFO - Save model...
+2023-04-25 12:24:37,659 - Model - INFO - Epoch 48/400:
+2023-04-25 12:24:46,028 - Model - INFO - Train Instance Loss: 0.056578
+2023-04-25 12:24:46,077 - Model - INFO - Save model...
+2023-04-25 12:24:46,078 - Model - INFO - Epoch 49/400:
+2023-04-25 12:24:54,302 - Model - INFO - Train Instance Loss: 0.057348
+2023-04-25 12:24:54,302 - Model - INFO - Epoch 50/400:
+2023-04-25 12:25:02,616 - Model - INFO - Train Instance Loss: 0.058511
+2023-04-25 12:25:02,616 - Model - INFO - Epoch 51/400:
+2023-04-25 12:25:10,912 - Model - INFO - Train Instance Loss: 0.058651
+2023-04-25 12:25:10,913 - Model - INFO - Epoch 52/400:
+2023-04-25 12:25:19,376 - Model - INFO - Train Instance Loss: 0.058232
+2023-04-25 12:25:19,376 - Model - INFO - Epoch 53/400:
+2023-04-25 12:25:27,700 - Model - INFO - Train Instance Loss: 0.055149
+2023-04-25 12:25:27,748 - Model - INFO - Save model...
+2023-04-25 12:25:27,749 - Model - INFO - Epoch 54/400:
+2023-04-25 12:25:36,022 - Model - INFO - Train Instance Loss: 0.056276
+2023-04-25 12:25:36,023 - Model - INFO - Epoch 55/400:
+2023-04-25 12:25:44,353 - Model - INFO - Train Instance Loss: 0.055690
+2023-04-25 12:25:44,354 - Model - INFO - Epoch 56/400:
+2023-04-25 12:25:52,669 - Model - INFO - Train Instance Loss: 0.055414
+2023-04-25 12:25:52,670 - Model - INFO - Epoch 57/400:
+2023-04-25 12:26:01,061 - Model - INFO - Train Instance Loss: 0.056227
+2023-04-25 12:26:01,062 - Model - INFO - Epoch 58/400:
+2023-04-25 12:26:09,239 - Model - INFO - Train Instance Loss: 0.053905
+2023-04-25 12:26:09,289 - Model - INFO - Save model...
+2023-04-25 12:26:09,289 - Model - INFO - Epoch 59/400:
+2023-04-25 12:26:17,671 - Model - INFO - Train Instance Loss: 0.055512
+2023-04-25 12:26:17,672 - Model - INFO - Epoch 60/400:
+2023-04-25 12:26:25,938 - Model - INFO - Train Instance Loss: 0.052697
+2023-04-25 12:26:25,989 - Model - INFO - Save model...
+2023-04-25 12:26:25,989 - Model - INFO - Epoch 61/400:
+2023-04-25 12:26:34,171 - Model - INFO - Train Instance Loss: 0.052428
+2023-04-25 12:26:34,221 - Model - INFO - Save model...
+2023-04-25 12:26:34,221 - Model - INFO - Epoch 62/400:
+2023-04-25 12:26:42,454 - Model - INFO - Train Instance Loss: 0.051524
+2023-04-25 12:26:42,503 - Model - INFO - Save model...
+2023-04-25 12:26:42,503 - Model - INFO - Epoch 63/400:
+2023-04-25 12:26:50,726 - Model - INFO - Train Instance Loss: 0.052456
+2023-04-25 12:26:50,727 - Model - INFO - Epoch 64/400:
+2023-04-25 12:26:58,990 - Model - INFO - Train Instance Loss: 0.055016
+2023-04-25 12:26:58,990 - Model - INFO - Epoch 65/400:
+2023-04-25 12:27:07,230 - Model - INFO - Train Instance Loss: 0.052329
+2023-04-25 12:27:07,230 - Model - INFO - Epoch 66/400:
+2023-04-25 12:27:15,467 - Model - INFO - Train Instance Loss: 0.052029
+2023-04-25 12:27:15,468 - Model - INFO - Epoch 67/400:
+2023-04-25 12:27:23,700 - Model - INFO - Train Instance Loss: 0.051076
+2023-04-25 12:27:23,749 - Model - INFO - Save model...
+2023-04-25 12:27:23,750 - Model - INFO - Epoch 68/400:
+2023-04-25 12:27:31,906 - Model - INFO - Train Instance Loss: 0.053031
+2023-04-25 12:27:31,906 - Model - INFO - Epoch 69/400:
+2023-04-25 12:27:40,184 - Model - INFO - Train Instance Loss: 0.048818
+2023-04-25 12:27:40,236 - Model - INFO - Save model...
+2023-04-25 12:27:40,236 - Model - INFO - Epoch 70/400:
+2023-04-25 12:27:48,580 - Model - INFO - Train Instance Loss: 0.050471
+2023-04-25 12:27:48,581 - Model - INFO - Epoch 71/400:
+2023-04-25 12:27:56,838 - Model - INFO - Train Instance Loss: 0.050712
+2023-04-25 12:27:56,838 - Model - INFO - Epoch 72/400:
+2023-04-25 12:28:05,090 - Model - INFO - Train Instance Loss: 0.049990
+2023-04-25 12:28:05,090 - Model - INFO - Epoch 73/400:
+2023-04-25 12:28:13,292 - Model - INFO - Train Instance Loss: 0.049508
+2023-04-25 12:28:13,293 - Model - INFO - Epoch 74/400:
+2023-04-25 12:28:21,520 - Model - INFO - Train Instance Loss: 0.050711
+2023-04-25 12:28:21,521 - Model - INFO - Epoch 75/400:
+2023-04-25 12:28:29,772 - Model - INFO - Train Instance Loss: 0.049969
+2023-04-25 12:28:29,772 - Model - INFO - Epoch 76/400:
+2023-04-25 12:28:38,026 - Model - INFO - Train Instance Loss: 0.049865
+2023-04-25 12:28:38,026 - Model - INFO - Epoch 77/400:
+2023-04-25 12:28:46,268 - Model - INFO - Train Instance Loss: 0.048709
+2023-04-25 12:28:46,318 - Model - INFO - Save model...
+2023-04-25 12:28:46,318 - Model - INFO - Epoch 78/400:
+2023-04-25 12:28:54,606 - Model - INFO - Train Instance Loss: 0.049815
+2023-04-25 12:28:54,607 - Model - INFO - Epoch 79/400:
+2023-04-25 12:29:02,861 - Model - INFO - Train Instance Loss: 0.048859
+2023-04-25 12:29:02,861 - Model - INFO - Epoch 80/400:
+2023-04-25 12:29:11,110 - Model - INFO - Train Instance Loss: 0.048490
+2023-04-25 12:29:11,159 - Model - INFO - Save model...
+2023-04-25 12:29:11,159 - Model - INFO - Epoch 81/400:
+2023-04-25 12:29:19,366 - Model - INFO - Train Instance Loss: 0.048855
+2023-04-25 12:29:19,367 - Model - INFO - Epoch 82/400:
+2023-04-25 12:29:27,550 - Model - INFO - Train Instance Loss: 0.048060
+2023-04-25 12:29:27,599 - Model - INFO - Save model...
+2023-04-25 12:29:27,599 - Model - INFO - Epoch 83/400:
+2023-04-25 12:29:35,849 - Model - INFO - Train Instance Loss: 0.048698
+2023-04-25 12:29:35,850 - Model - INFO - Epoch 84/400:
+2023-04-25 12:29:44,123 - Model - INFO - Train Instance Loss: 0.048159
+2023-04-25 12:29:44,124 - Model - INFO - Epoch 85/400:
+2023-04-25 12:29:52,356 - Model - INFO - Train Instance Loss: 0.049197
+2023-04-25 12:29:52,357 - Model - INFO - Epoch 86/400:
+2023-04-25 12:30:00,557 - Model - INFO - Train Instance Loss: 0.048145
+2023-04-25 12:30:00,558 - Model - INFO - Epoch 87/400:
+2023-04-25 12:30:08,812 - Model - INFO - Train Instance Loss: 0.048078
+2023-04-25 12:30:08,812 - Model - INFO - Epoch 88/400:
+2023-04-25 12:30:17,086 - Model - INFO - Train Instance Loss: 0.049610
+2023-04-25 12:30:17,086 - Model - INFO - Epoch 89/400:
+2023-04-25 12:30:25,432 - Model - INFO - Train Instance Loss: 0.048651
+2023-04-25 12:30:25,433 - Model - INFO - Epoch 90/400:
+2023-04-25 12:30:33,697 - Model - INFO - Train Instance Loss: 0.048204
+2023-04-25 12:30:33,698 - Model - INFO - Epoch 91/400:
+2023-04-25 12:30:41,971 - Model - INFO - Train Instance Loss: 0.047314
+2023-04-25 12:30:42,021 - Model - INFO - Save model...
+2023-04-25 12:30:42,021 - Model - INFO - Epoch 92/400:
+2023-04-25 12:30:50,295 - Model - INFO - Train Instance Loss: 0.047018
+2023-04-25 12:30:50,344 - Model - INFO - Save model...
+2023-04-25 12:30:50,344 - Model - INFO - Epoch 93/400:
+2023-04-25 12:30:58,591 - Model - INFO - Train Instance Loss: 0.047498
+2023-04-25 12:30:58,592 - Model - INFO - Epoch 94/400:
+2023-04-25 12:31:06,833 - Model - INFO - Train Instance Loss: 0.047451
+2023-04-25 12:31:06,834 - Model - INFO - Epoch 95/400:
+2023-04-25 12:31:15,055 - Model - INFO - Train Instance Loss: 0.047034
+2023-04-25 12:31:15,056 - Model - INFO - Epoch 96/400:
+2023-04-25 12:31:23,319 - Model - INFO - Train Instance Loss: 0.047140
+2023-04-25 12:31:23,320 - Model - INFO - Epoch 97/400:
+2023-04-25 12:31:31,516 - Model - INFO - Train Instance Loss: 0.046891
+2023-04-25 12:31:31,567 - Model - INFO - Save model...
+2023-04-25 12:31:31,568 - Model - INFO - Epoch 98/400:
+2023-04-25 12:31:39,811 - Model - INFO - Train Instance Loss: 0.047180
+2023-04-25 12:31:39,812 - Model - INFO - Epoch 99/400:
+2023-04-25 12:31:48,619 - Model - INFO - Train Instance Loss: 0.047442
+2023-04-25 12:31:48,620 - Model - INFO - Epoch 100/400:
+2023-04-25 12:31:56,935 - Model - INFO - Train Instance Loss: 0.045846
+2023-04-25 12:31:56,984 - Model - INFO - Save model...
+2023-04-25 12:31:56,984 - Model - INFO - Epoch 101/400:
+2023-04-25 12:32:05,293 - Model - INFO - Train Instance Loss: 0.046839
+2023-04-25 12:32:05,293 - Model - INFO - Epoch 102/400:
+2023-04-25 12:32:13,598 - Model - INFO - Train Instance Loss: 0.046701
+2023-04-25 12:32:13,598 - Model - INFO - Epoch 103/400:
+2023-04-25 12:32:22,011 - Model - INFO - Train Instance Loss: 0.048048
+2023-04-25 12:32:22,012 - Model - INFO - Epoch 104/400:
+2023-04-25 12:32:30,240 - Model - INFO - Train Instance Loss: 0.046412
+2023-04-25 12:32:30,241 - Model - INFO - Epoch 105/400:
+2023-04-25 12:32:38,531 - Model - INFO - Train Instance Loss: 0.045689
+2023-04-25 12:32:38,581 - Model - INFO - Save model...
+2023-04-25 12:32:38,581 - Model - INFO - Epoch 106/400:
+2023-04-25 12:32:46,878 - Model - INFO - Train Instance Loss: 0.045493
+2023-04-25 12:32:46,960 - Model - INFO - Save model...
+2023-04-25 12:32:46,961 - Model - INFO - Epoch 107/400:
+2023-04-25 12:32:55,263 - Model - INFO - Train Instance Loss: 0.044894
+2023-04-25 12:32:55,341 - Model - INFO - Save model...
+2023-04-25 12:32:55,341 - Model - INFO - Epoch 108/400:
+2023-04-25 12:33:03,621 - Model - INFO - Train Instance Loss: 0.046175
+2023-04-25 12:33:03,622 - Model - INFO - Epoch 109/400:
+2023-04-25 12:33:11,909 - Model - INFO - Train Instance Loss: 0.045603
+2023-04-25 12:33:11,909 - Model - INFO - Epoch 110/400:
+2023-04-25 12:33:20,251 - Model - INFO - Train Instance Loss: 0.044867
+2023-04-25 12:33:20,302 - Model - INFO - Save model...
+2023-04-25 12:33:20,303 - Model - INFO - Epoch 111/400:
+2023-04-25 12:33:28,588 - Model - INFO - Train Instance Loss: 0.046210
+2023-04-25 12:33:28,588 - Model - INFO - Epoch 112/400:
+2023-04-25 12:33:36,924 - Model - INFO - Train Instance Loss: 0.045449
+2023-04-25 12:33:36,924 - Model - INFO - Epoch 113/400:
+2023-04-25 12:33:45,189 - Model - INFO - Train Instance Loss: 0.045995
+2023-04-25 12:33:45,190 - Model - INFO - Epoch 114/400:
+2023-04-25 12:33:53,433 - Model - INFO - Train Instance Loss: 0.045482
+2023-04-25 12:33:53,434 - Model - INFO - Epoch 115/400:
+2023-04-25 12:34:01,686 - Model - INFO - Train Instance Loss: 0.045076
+2023-04-25 12:34:01,687 - Model - INFO - Epoch 116/400:
+2023-04-25 12:34:10,221 - Model - INFO - Train Instance Loss: 0.045171
+2023-04-25 12:34:10,222 - Model - INFO - Epoch 117/400:
+2023-04-25 12:34:19,207 - Model - INFO - Train Instance Loss: 0.044492
+2023-04-25 12:34:19,256 - Model - INFO - Save model...
+2023-04-25 12:34:19,257 - Model - INFO - Epoch 118/400:
+2023-04-25 12:34:27,543 - Model - INFO - Train Instance Loss: 0.044680
+2023-04-25 12:34:27,544 - Model - INFO - Epoch 119/400:
+2023-04-25 12:34:35,755 - Model - INFO - Train Instance Loss: 0.045746
+2023-04-25 12:34:35,755 - Model - INFO - Epoch 120/400:
+2023-04-25 12:34:44,132 - Model - INFO - Train Instance Loss: 0.045583
+2023-04-25 12:34:44,133 - Model - INFO - Epoch 121/400:
+2023-04-25 12:34:52,457 - Model - INFO - Train Instance Loss: 0.044747
+2023-04-25 12:34:52,458 - Model - INFO - Epoch 122/400:
+2023-04-25 12:35:00,774 - Model - INFO - Train Instance Loss: 0.045271
+2023-04-25 12:35:00,774 - Model - INFO - Epoch 123/400:
+2023-04-25 12:35:09,206 - Model - INFO - Train Instance Loss: 0.045398
+2023-04-25 12:35:09,206 - Model - INFO - Epoch 124/400:
+2023-04-25 12:35:17,647 - Model - INFO - Train Instance Loss: 0.044805
+2023-04-25 12:35:17,647 - Model - INFO - Epoch 125/400:
+2023-04-25 12:35:26,075 - Model - INFO - Train Instance Loss: 0.044867
+2023-04-25 12:35:26,076 - Model - INFO - Epoch 126/400:
+2023-04-25 12:35:34,413 - Model - INFO - Train Instance Loss: 0.045148
+2023-04-25 12:35:34,414 - Model - INFO - Epoch 127/400:
+2023-04-25 12:35:42,917 - Model - INFO - Train Instance Loss: 0.045123
+2023-04-25 12:35:42,918 - Model - INFO - Epoch 128/400:
+2023-04-25 12:35:51,413 - Model - INFO - Train Instance Loss: 0.044896
+2023-04-25 12:35:51,414 - Model - INFO - Epoch 129/400:
+2023-04-25 12:35:59,705 - Model - INFO - Train Instance Loss: 0.042885
+2023-04-25 12:35:59,754 - Model - INFO - Save model...
+2023-04-25 12:35:59,754 - Model - INFO - Epoch 130/400:
+2023-04-25 12:36:08,089 - Model - INFO - Train Instance Loss: 0.044184
+2023-04-25 12:36:08,090 - Model - INFO - Epoch 131/400:
+2023-04-25 12:36:16,338 - Model - INFO - Train Instance Loss: 0.045051
+2023-04-25 12:36:16,339 - Model - INFO - Epoch 132/400:
+2023-04-25 12:36:24,614 - Model - INFO - Train Instance Loss: 0.043000
+2023-04-25 12:36:24,614 - Model - INFO - Epoch 133/400:
+2023-04-25 12:36:32,923 - Model - INFO - Train Instance Loss: 0.043599
+2023-04-25 12:36:32,924 - Model - INFO - Epoch 134/400:
+2023-04-25 12:36:41,360 - Model - INFO - Train Instance Loss: 0.044100
+2023-04-25 12:36:41,361 - Model - INFO - Epoch 135/400:
+2023-04-25 12:36:49,781 - Model - INFO - Train Instance Loss: 0.043616
+2023-04-25 12:36:49,782 - Model - INFO - Epoch 136/400:
+2023-04-25 12:36:58,115 - Model - INFO - Train Instance Loss: 0.043651
+2023-04-25 12:36:58,116 - Model - INFO - Epoch 137/400:
+2023-04-25 12:37:06,429 - Model - INFO - Train Instance Loss: 0.042969
+2023-04-25 12:37:06,430 - Model - INFO - Epoch 138/400:
+2023-04-25 12:37:14,699 - Model - INFO - Train Instance Loss: 0.043026
+2023-04-25 12:37:14,699 - Model - INFO - Epoch 139/400:
+2023-04-25 12:37:22,977 - Model - INFO - Train Instance Loss: 0.045184
+2023-04-25 12:37:22,978 - Model - INFO - Epoch 140/400:
+2023-04-25 12:37:31,238 - Model - INFO - Train Instance Loss: 0.044476
+2023-04-25 12:37:31,239 - Model - INFO - Epoch 141/400:
+2023-04-25 12:37:39,482 - Model - INFO - Train Instance Loss: 0.042758
+2023-04-25 12:37:39,533 - Model - INFO - Save model...
+2023-04-25 12:37:39,533 - Model - INFO - Epoch 142/400:
+2023-04-25 12:37:47,714 - Model - INFO - Train Instance Loss: 0.043028
+2023-04-25 12:37:47,715 - Model - INFO - Epoch 143/400:
+2023-04-25 12:37:56,022 - Model - INFO - Train Instance Loss: 0.043221
+2023-04-25 12:37:56,022 - Model - INFO - Epoch 144/400:
+2023-04-25 12:38:04,314 - Model - INFO - Train Instance Loss: 0.043528
+2023-04-25 12:38:04,315 - Model - INFO - Epoch 145/400:
+2023-04-25 12:38:12,657 - Model - INFO - Train Instance Loss: 0.042159
+2023-04-25 12:38:12,707 - Model - INFO - Save model...
+2023-04-25 12:38:12,707 - Model - INFO - Epoch 146/400:
+2023-04-25 12:38:21,049 - Model - INFO - Train Instance Loss: 0.042145
+2023-04-25 12:38:21,102 - Model - INFO - Save model...
+2023-04-25 12:38:21,103 - Model - INFO - Epoch 147/400:
+2023-04-25 12:38:29,590 - Model - INFO - Train Instance Loss: 0.042623
+2023-04-25 12:38:29,591 - Model - INFO - Epoch 148/400:
+2023-04-25 12:38:37,794 - Model - INFO - Train Instance Loss: 0.042135
+2023-04-25 12:38:37,844 - Model - INFO - Save model...
+2023-04-25 12:38:37,844 - Model - INFO - Epoch 149/400:
+2023-04-25 12:38:46,187 - Model - INFO - Train Instance Loss: 0.040140
+2023-04-25 12:38:46,237 - Model - INFO - Save model...
+2023-04-25 12:38:46,237 - Model - INFO - Epoch 150/400:
+2023-04-25 12:38:54,549 - Model - INFO - Train Instance Loss: 0.041975
+2023-04-25 12:38:54,550 - Model - INFO - Epoch 151/400:
+2023-04-25 12:39:02,829 - Model - INFO - Train Instance Loss: 0.040868
+2023-04-25 12:39:02,830 - Model - INFO - Epoch 152/400:
+2023-04-25 12:39:11,104 - Model - INFO - Train Instance Loss: 0.043813
+2023-04-25 12:39:11,104 - Model - INFO - Epoch 153/400:
+2023-04-25 12:39:19,351 - Model - INFO - Train Instance Loss: 0.040538
+2023-04-25 12:39:19,352 - Model - INFO - Epoch 154/400:
+2023-04-25 12:39:27,591 - Model - INFO - Train Instance Loss: 0.041627
+2023-04-25 12:39:27,591 - Model - INFO - Epoch 155/400:
+2023-04-25 12:39:35,837 - Model - INFO - Train Instance Loss: 0.040977
+2023-04-25 12:39:35,838 - Model - INFO - Epoch 156/400:
+2023-04-25 12:39:44,231 - Model - INFO - Train Instance Loss: 0.041770
+2023-04-25 12:39:44,232 - Model - INFO - Epoch 157/400:
+2023-04-25 12:39:52,630 - Model - INFO - Train Instance Loss: 0.040099
+2023-04-25 12:39:52,680 - Model - INFO - Save model...
+2023-04-25 12:39:52,680 - Model - INFO - Epoch 158/400:
+2023-04-25 12:40:01,146 - Model - INFO - Train Instance Loss: 0.040786
+2023-04-25 12:40:01,147 - Model - INFO - Epoch 159/400:
+2023-04-25 12:40:09,495 - Model - INFO - Train Instance Loss: 0.041064
+2023-04-25 12:40:09,496 - Model - INFO - Epoch 160/400:
+2023-04-25 12:40:17,869 - Model - INFO - Train Instance Loss: 0.039856
+2023-04-25 12:40:17,918 - Model - INFO - Save model...
+2023-04-25 12:40:17,919 - Model - INFO - Epoch 161/400:
+2023-04-25 12:40:26,170 - Model - INFO - Train Instance Loss: 0.041998
+2023-04-25 12:40:26,170 - Model - INFO - Epoch 162/400:
+2023-04-25 12:40:34,458 - Model - INFO - Train Instance Loss: 0.040659
+2023-04-25 12:40:34,458 - Model - INFO - Epoch 163/400:
+2023-04-25 12:40:42,751 - Model - INFO - Train Instance Loss: 0.040681
+2023-04-25 12:40:42,752 - Model - INFO - Epoch 164/400:
+2023-04-25 12:40:51,012 - Model - INFO - Train Instance Loss: 0.038879
+2023-04-25 12:40:51,062 - Model - INFO - Save model...
+2023-04-25 12:40:51,062 - Model - INFO - Epoch 165/400:
+2023-04-25 12:40:59,297 - Model - INFO - Train Instance Loss: 0.040818
+2023-04-25 12:40:59,297 - Model - INFO - Epoch 166/400:
+2023-04-25 12:41:07,732 - Model - INFO - Train Instance Loss: 0.041948
+2023-04-25 12:41:07,733 - Model - INFO - Epoch 167/400:
+2023-04-25 12:41:15,899 - Model - INFO - Train Instance Loss: 0.041731
+2023-04-25 12:41:15,900 - Model - INFO - Epoch 168/400:
+2023-04-25 12:41:24,224 - Model - INFO - Train Instance Loss: 0.039766
+2023-04-25 12:41:24,225 - Model - INFO - Epoch 169/400:
+2023-04-25 12:41:32,483 - Model - INFO - Train Instance Loss: 0.038966
+2023-04-25 12:41:32,483 - Model - INFO - Epoch 170/400:
+2023-04-25 12:41:40,823 - Model - INFO - Train Instance Loss: 0.040200
+2023-04-25 12:41:40,824 - Model - INFO - Epoch 171/400:
+2023-04-25 12:41:49,078 - Model - INFO - Train Instance Loss: 0.039286
+2023-04-25 12:41:49,079 - Model - INFO - Epoch 172/400:
+2023-04-25 12:41:57,308 - Model - INFO - Train Instance Loss: 0.038295
+2023-04-25 12:41:57,358 - Model - INFO - Save model...
+2023-04-25 12:41:57,358 - Model - INFO - Epoch 173/400:
+2023-04-25 12:42:05,629 - Model - INFO - Train Instance Loss: 0.039048
+2023-04-25 12:42:05,630 - Model - INFO - Epoch 174/400:
+2023-04-25 12:42:13,814 - Model - INFO - Train Instance Loss: 0.040044
+2023-04-25 12:42:13,814 - Model - INFO - Epoch 175/400:
+2023-04-25 12:42:22,067 - Model - INFO - Train Instance Loss: 0.040126
+2023-04-25 12:42:22,068 - Model - INFO - Epoch 176/400:
+2023-04-25 12:42:30,296 - Model - INFO - Train Instance Loss: 0.038660
+2023-04-25 12:42:30,297 - Model - INFO - Epoch 177/400:
+2023-04-25 12:42:38,503 - Model - INFO - Train Instance Loss: 0.040378
+2023-04-25 12:42:38,504 - Model - INFO - Epoch 178/400:
+2023-04-25 12:42:46,736 - Model - INFO - Train Instance Loss: 0.039861
+2023-04-25 12:42:46,737 - Model - INFO - Epoch 179/400:
+2023-04-25 12:42:55,077 - Model - INFO - Train Instance Loss: 0.039470
+2023-04-25 12:42:55,078 - Model - INFO - Epoch 180/400:
+2023-04-25 12:43:03,363 - Model - INFO - Train Instance Loss: 0.041320
+2023-04-25 12:43:03,363 - Model - INFO - Epoch 181/400:
+2023-04-25 12:43:11,694 - Model - INFO - Train Instance Loss: 0.038086
+2023-04-25 12:43:11,743 - Model - INFO - Save model...
+2023-04-25 12:43:11,743 - Model - INFO - Epoch 182/400:
+2023-04-25 12:43:19,965 - Model - INFO - Train Instance Loss: 0.040309
+2023-04-25 12:43:19,966 - Model - INFO - Epoch 183/400:
+2023-04-25 12:43:28,221 - Model - INFO - Train Instance Loss: 0.039708
+2023-04-25 12:43:28,222 - Model - INFO - Epoch 184/400:
+2023-04-25 12:43:36,532 - Model - INFO - Train Instance Loss: 0.038635
+2023-04-25 12:43:36,533 - Model - INFO - Epoch 185/400:
+2023-04-25 12:43:44,814 - Model - INFO - Train Instance Loss: 0.038934
+2023-04-25 12:43:44,814 - Model - INFO - Epoch 186/400:
+2023-04-25 12:43:53,101 - Model - INFO - Train Instance Loss: 0.040527
+2023-04-25 12:43:53,101 - Model - INFO - Epoch 187/400:
+2023-04-25 12:44:01,272 - Model - INFO - Train Instance Loss: 0.039954
+2023-04-25 12:44:01,272 - Model - INFO - Epoch 188/400:
+2023-04-25 12:44:09,605 - Model - INFO - Train Instance Loss: 0.037193
+2023-04-25 12:44:09,655 - Model - INFO - Save model...
+2023-04-25 12:44:09,655 - Model - INFO - Epoch 189/400:
+2023-04-25 12:44:17,900 - Model - INFO - Train Instance Loss: 0.040402
+2023-04-25 12:44:17,900 - Model - INFO - Epoch 190/400:
+2023-04-25 12:44:26,197 - Model - INFO - Train Instance Loss: 0.038055
+2023-04-25 12:44:26,197 - Model - INFO - Epoch 191/400:
+2023-04-25 12:44:34,462 - Model - INFO - Train Instance Loss: 0.037462
+2023-04-25 12:44:34,462 - Model - INFO - Epoch 192/400:
+2023-04-25 12:44:42,791 - Model - INFO - Train Instance Loss: 0.039497
+2023-04-25 12:44:42,792 - Model - INFO - Epoch 193/400:
+2023-04-25 12:44:51,172 - Model - INFO - Train Instance Loss: 0.039769
+2023-04-25 12:44:51,173 - Model - INFO - Epoch 194/400:
+2023-04-25 12:44:59,475 - Model - INFO - Train Instance Loss: 0.038030
+2023-04-25 12:44:59,475 - Model - INFO - Epoch 195/400:
+2023-04-25 12:45:07,679 - Model - INFO - Train Instance Loss: 0.038941
+2023-04-25 12:45:07,680 - Model - INFO - Epoch 196/400:
+2023-04-25 12:45:15,972 - Model - INFO - Train Instance Loss: 0.036864
+2023-04-25 12:45:16,021 - Model - INFO - Save model...
+2023-04-25 12:45:16,021 - Model - INFO - Epoch 197/400:
+2023-04-25 12:45:24,272 - Model - INFO - Train Instance Loss: 0.036498
+2023-04-25 12:45:24,324 - Model - INFO - Save model...
+2023-04-25 12:45:24,324 - Model - INFO - Epoch 198/400:
+2023-04-25 12:45:32,614 - Model - INFO - Train Instance Loss: 0.039281
+2023-04-25 12:45:32,614 - Model - INFO - Epoch 199/400:
+2023-04-25 12:45:40,926 - Model - INFO - Train Instance Loss: 0.036611
+2023-04-25 12:45:40,927 - Model - INFO - Epoch 200/400:
+2023-04-25 12:45:49,441 - Model - INFO - Train Instance Loss: 0.040295
+2023-04-25 12:45:49,441 - Model - INFO - Epoch 201/400:
+2023-04-25 12:45:57,818 - Model - INFO - Train Instance Loss: 0.038308
+2023-04-25 12:45:57,819 - Model - INFO - Epoch 202/400:
+2023-04-25 12:46:06,072 - Model - INFO - Train Instance Loss: 0.036475
+2023-04-25 12:46:06,123 - Model - INFO - Save model...
+2023-04-25 12:46:06,123 - Model - INFO - Epoch 203/400:
+2023-04-25 12:46:14,385 - Model - INFO - Train Instance Loss: 0.035400
+2023-04-25 12:46:14,434 - Model - INFO - Save model...
+2023-04-25 12:46:14,434 - Model - INFO - Epoch 204/400:
+2023-04-25 12:46:22,782 - Model - INFO - Train Instance Loss: 0.038475
+2023-04-25 12:46:22,783 - Model - INFO - Epoch 205/400:
+2023-04-25 12:46:31,093 - Model - INFO - Train Instance Loss: 0.037767
+2023-04-25 12:46:31,093 - Model - INFO - Epoch 206/400:
+2023-04-25 12:46:39,344 - Model - INFO - Train Instance Loss: 0.037082
+2023-04-25 12:46:39,344 - Model - INFO - Epoch 207/400:
+2023-04-25 12:46:47,635 - Model - INFO - Train Instance Loss: 0.038790
+2023-04-25 12:46:47,636 - Model - INFO - Epoch 208/400:
+2023-04-25 12:46:55,943 - Model - INFO - Train Instance Loss: 0.040006
+2023-04-25 12:46:55,943 - Model - INFO - Epoch 209/400:
+2023-04-25 12:47:04,199 - Model - INFO - Train Instance Loss: 0.036088
+2023-04-25 12:47:04,199 - Model - INFO - Epoch 210/400:
+2023-04-25 12:47:12,526 - Model - INFO - Train Instance Loss: 0.037062
+2023-04-25 12:47:12,527 - Model - INFO - Epoch 211/400:
+2023-04-25 12:47:20,821 - Model - INFO - Train Instance Loss: 0.037215
+2023-04-25 12:47:20,822 - Model - INFO - Epoch 212/400:
+2023-04-25 12:47:29,073 - Model - INFO - Train Instance Loss: 0.037534
+2023-04-25 12:47:29,073 - Model - INFO - Epoch 213/400:
+2023-04-25 12:47:37,391 - Model - INFO - Train Instance Loss: 0.037600
+2023-04-25 12:47:37,392 - Model - INFO - Epoch 214/400:
+2023-04-25 12:47:45,663 - Model - INFO - Train Instance Loss: 0.035839
+2023-04-25 12:47:45,663 - Model - INFO - Epoch 215/400:
+2023-04-25 12:47:54,021 - Model - INFO - Train Instance Loss: 0.037015
+2023-04-25 12:47:54,022 - Model - INFO - Epoch 216/400:
+2023-04-25 16:19:39,797 - Model - INFO - PARAMETER ...
+2023-04-25 16:19:39,798 - Model - INFO - Namespace(batch_size=124, decay_rate=0.0001, epoch=400, gpu='0', learning_rate=0.0001, log_dir='pointnet_feat', model='pointnet_features', num_category=40, num_point=1024, optimizer='Adam', process_data=False, use_cpu=True, use_normals=False, use_uniform_sample=False)
+2023-04-25 16:19:39,799 - Model - INFO - Load dataset ...
+2023-04-25 16:19:39,867 - Model - INFO - No existing model, starting training from scratch...
+2023-04-25 16:19:51,884 - Model - INFO - Start training...
+2023-04-25 16:19:51,884 - Model - INFO - Epoch 1/400:
