@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:1
+#SBATCH --job-name=try2
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --mem=6000M
+#SBATCH --output=try2.out
+
+module purge
+module load 2021
+module load Anaconda3/2021.055
+
+cd $HOME/ULIP/
+source activate ulip
+
+python -u main.py --model ULIP_PN_SSG --npoints 8192 --lr 3e-3 --output-dir ./outputs/reproduce_pointnet2_ssg_8kpts --wandb
